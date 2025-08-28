@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -117,9 +118,13 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+}
+
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    @apply border-border outline-ring/50 font-poppins;
   }
   body {
     @apply bg-background text-foreground;
