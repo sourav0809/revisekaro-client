@@ -1,5 +1,3 @@
-export const cookieKeys: {
-  [key: string]: string;
-} = {
+export const cookieKeys = {
   AUTH_TOKEN: "AUTH_TOKEN",
 };

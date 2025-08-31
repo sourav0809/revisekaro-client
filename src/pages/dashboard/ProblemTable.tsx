@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Search, Filter } from "lucide-react";
-import { Input } from "@/components/common/ui/input";
+import { Input } from "@/common/components/ui/input";
 import {
   Table,
   TableBody,
@@ -8,16 +8,16 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/common/ui/table";
+} from "@/common/components/ui/table";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/common/ui/select";
-import { Card, CardContent, CardHeader } from "@/components/common/ui/card";
-import { Badge } from "@/components/common/ui/badge";
+} from "@/common/components/ui/select";
+import { Card, CardContent, CardHeader } from "@/common/components/ui/card";
+import { Badge } from "@/common/components/ui/badge";
 
 const problems = [
   {

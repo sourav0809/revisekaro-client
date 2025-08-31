@@ -4,7 +4,7 @@ import {
   CardContent,
   CardHeader,
   CardTitle,
-} from "@/components/common/ui/card";
+} from "@/common/components/ui/card";
 
 const stats = [
   {
