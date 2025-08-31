@@ -64,7 +64,7 @@ export default function Login() {
 
       {/* Right Section - Login Form */}
       <div className="flex-1 flex items-center justify-center p-6 lg:p-12 bg-white">
-        <div className="w-full max-w-md space-y-8">
+        <div className="w-full max-w-lg space-y-8">
           <div className="text-center">
             <h2 className="text-3xl font-bold text-gray-900">Welcome Back</h2>
             <p className="mt-2 text-gray-600">
@@ -135,7 +135,7 @@ export default function Login() {
           <div className="text-sm text-center">
             <span className="text-gray-600">Don&apos;t have an account? </span>
             <Link
-              to={"/login"}
+              to={"/register"}
               className="font-medium text-blue-600 hover:text-blue-500 underline"
             >
               Register
